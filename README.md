@@ -1,4 +1,4 @@
-# neuralforge
+# NeuralForge
 
 A complete implementation of a feedforward neural network built from scratch using only NumPy for mathematical operations.
 
