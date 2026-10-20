@@ -2,7 +2,7 @@
 
 A complete implementation of a feedforward neural network built from scratch using only NumPy for mathematical operations.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a deep understanding of neural network fundamentals by implementing:
 * Forward and backward propagation algorithms
@@ -10,7 +10,7 @@ This project demonstrates a deep understanding of neural network fundamentals by
 * Gradient descent optimization
 * Multi-class classification on MNIST dataset
 
-## 🚀 Key Features
+## Key Features
 
 * **Pure Python Implementation**: No TensorFlow, PyTorch, or Keras dependencies
 * **Configurable Architecture**: Easily adjust layer sizes and activation functions
@@ -18,7 +18,7 @@ This project demonstrates a deep understanding of neural network fundamentals by
 * **Comprehensive Visualization**: Training curves, sample predictions, and accuracy plots
 * **Robust Error Handling**: Numerical stability and dimension checking
 
-## 📊 Results
+## Results
 
 * **Final Training Accuracy**: 86.20%
 * **Final Test Accuracy**: 86.17%
@@ -26,7 +26,7 @@ This project demonstrates a deep understanding of neural network fundamentals by
 * **Training Epochs**: 200
 * **Learning Rate**: 0.05
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Core Components
 * **Forward Propagation**: Matrix multiplication with activation functions
@@ -46,7 +46,7 @@ dW = (1/m) * dZ · A_prev^T
 db = (1/m) * sum(dZ)
 ```
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -60,14 +60,14 @@ pip install -r requirements.txt
 python neural_network.py
 ```
 
-## 📈 Performance Analysis
+##  Performance Analysis
 
 The model achieves solid results for a from-scratch implementation:
 - Consistent training and test accuracy (~86%) indicates good generalization
 - No significant overfitting observed
 - Smooth convergence as shown in training curves
 
-## 🔧 Customization
+##  Customization
 
 ```python
 # Modify architecture in neural_network.py
@@ -76,7 +76,7 @@ learning_rate = 0.01          # Adjust learning rate
 epochs = 300                  # More training epochs
 ```
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 - Deep understanding of neural network mathematics
@@ -84,15 +84,15 @@ This project demonstrates:
 - Proficiency in NumPy and Python for numerical computing
 - Data visualization and model evaluation skills
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to open issues or submit pull requests for improvements!
 
-## 📚 References
+## References
 
 * MNIST Dataset: Yann LeCun's MNIST Database
 * Neural Networks and Deep Learning by Michael Nielsen
 
-## 📄 License
+## License
 
 MIT License - feel free to use this code for learning and projects!
